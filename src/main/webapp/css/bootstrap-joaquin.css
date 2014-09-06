@@ -1,0 +1,69 @@
+body{
+	background-color:#335CD6;
+}
+.dropdown-menu{
+	background-color: #e9ee22;
+}
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a{
+	background-color: #c5ce0f;
+}
+.navbar-default {
+	background-color: #e9ee22;
+	border-color: #c5ce0f;
+}
+.navbar-default .navbar-brand {
+	opacity:0.2;
+	color: #000000;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #b1cdf8;
+}
+.navbar-default .navbar-text {
+	color: #000000;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #000000;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #b1cdf8;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #b1cdf8;
+	background-color: #c5ce0f;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #b1cdf8;
+	background-color: #c5ce0f;
+}
+.navbar-default .navbar-toggle {
+	border-color: #c5ce0f;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #c5ce0f;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #000000;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #000000;
+}
+.navbar-default .navbar-link {
+	color: #000000;
+}
+.navbar-default .navbar-link:hover {
+	color: #b1cdf8;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #000000;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #b1cdf8;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #b1cdf8;
+		background-color: #c5ce0f;
+	}
+}
